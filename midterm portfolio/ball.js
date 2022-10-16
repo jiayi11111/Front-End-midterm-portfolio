@@ -1,3 +1,6 @@
+//https://youtu.be/LO3Awjn_gyU
+//https://youtu.be/tqTJZEglrvc
+//https://youtu.be/3b7FyIxWW94
 
 const CANVAS = document.getElementById('canvas');
  const CTX = CANVAS.getContext('2d');
