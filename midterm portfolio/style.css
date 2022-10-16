@@ -1,0 +1,489 @@
+body {
+    width: 100%;
+    height: 982px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    max-width: 1512px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgb(0, 0, 0);
+  }
+
+
+  .intro1{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+    top: 72px;
+    left: 730px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+
+  .fineart{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+    top: 72px;
+    left: 880px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+
+  button:hover{
+    /* text-shadow: 0 0 3px #FF0000; */
+  /* background-color: #f8f8f8; */
+  /* text-shadow: 2px 2px#FF3EA5; */
+  text-shadow: 4px 4px#f0e9ed94;
+  }
+
+  .handmade{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+    top: 72px;
+    left: 990px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+ button:hover{
+   
+  text-shadow: 4px 4px#f0e9ed94;
+  }
+
+  .about{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+    top: 72px;
+    left: 1125px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+   button:hover{
+  
+  text-shadow: 4px 4px#f0e9ed94;
+  }
+
+  .contactm{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+    top: 72px;
+    left: 1225px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .contact button:hover{
+  
+  text-shadow: 4px 4px#f0e9ed94;
+  }
+
+.video{
+  position: absolute;
+  top: 170px;
+  left: 700px;
+  width:750px;
+  height:590px;
+
+}
+
+.wenzi{
+  top: 548px;
+    left: 90px;
+    color: rgb(237, 235, 235);
+    width: 616px;
+    height: auto;
+    margin: auto;
+    z-index: 100;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+
+  /* .rectangle1 {
+    top: 67px;
+    left: 638px;
+    width: 156px;
+    height: 43px;
+    position: absolute;
+    box-sizing: border-box;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 15px;
+    margin-bottom: 0;
+  }
+  .rectangle3 {
+    top: 73px;
+    left: 1220px;
+    width: 144px;
+    height: 36px;
+    position: absolute;
+    box-sizing: border-box;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 15px;
+    margin-bottom: 0;
+  }
+  .rectangle4 {
+    top: 71px;
+    left: 1032px;
+    width: 153px;
+    height: 38px;
+    position: absolute;
+    box-sizing: border-box;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 15px;
+    margin-bottom: 0;
+  }
+  .text {
+    top: 72px;
+    left: 1067px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 25px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .text02 {
+    top: 72px;
+    left: 1247px;
+    color: rgba(255, 253, 253, 1);
+    height: auto;
+    position: absolute;
+    font-size: 25px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .rectangle2 {
+    top: 68px;
+    left: 829px;
+    width: 160px;
+    height: 41px;
+    position: absolute;
+    box-sizing: border-box;
+    border-color: transparent;
+    margin-right: 0;
+    border-radius: 15px;
+    margin-bottom: 0;
+  }
+  .text04 {
+    top: 69px;
+    left: 664px;
+    color: rgba(255, 252, 252, 1);
+    width: 130px;
+    height: auto;
+    position: absolute;
+    font-size: 25px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .rectangle5 {
+    top: 212px;
+    left: 689px;
+    width: 685px;
+    height: 624px;
+    position: absolute;
+    box-sizing: border-box;
+    border-color: transparent;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .text08 {
+    top: 548px;
+    left: 105px;
+    color: rgba(51, 48, 48, 1);
+    width: 616px;
+    height: auto;
+    margin: auto;
+    z-index: 100;
+    position: absolute;
+    font-size: 40px;
+    align-self: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .text09 {
+    color: rgba(51, 48, 48, 1);
+  }
+   */
+
+   @media only screen 
+   and (min-device-width: 375px) 
+   and (max-device-width: 812px) {
+    body {
+      width: 100%;
+      height: 853px;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+     
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+      border-radius: 0px 0px 0px 0px;
+      background-color: rgb(0, 0, 0);
+    }
+
+
+    .intro1{
+      background-color: black;
+      color:white;
+      border:none;
+      font-size:20px;
+      top: 52px;
+      left: 40px;
+      height: auto;
+      position: absolute;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .fineart{
+      background-color: black;
+      color:white;
+      border:none;
+      font-size:20px;
+      top: 52px;
+      left: 190px;
+      height: auto;
+      position: absolute;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    button:hover{
+      /* text-shadow: 0 0 3px #FF0000; */
+    /* background-color: #f8f8f8; */
+    /* text-shadow: 2px 2px#FF3EA5; */
+    text-shadow: 4px 4px#f0e9ed94;
+    }
+  
+    .handmade{
+      background-color: black;
+      color:white;
+      border:none;
+      font-size:20px;
+      top: 52px;
+      left:300px;
+      height: auto;
+      position: absolute;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+   button:hover{
+     
+    text-shadow: 4px 4px#f0e9ed94;
+    }
+  
+    .about{
+      background-color: black;
+      color:white;
+      border:none;
+      font-size:20px;
+      top: 52px;
+      left: 400px;
+      height: auto;
+      position: absolute;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+     button:hover{
+    
+    text-shadow: 4px 4px#f0e9ed94;
+    }
+  
+    .contactm{
+      background-color: black;
+      color:white;
+      border:none;
+      font-size:20px;
+      top: 52px;
+      left: 500px;
+      height: auto;
+      position: absolute;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .contact button:hover{
+    
+    text-shadow: 4px 4px#f0e9ed94;
+    }
+  
+  .video{
+    position: absolute;
+    top: 300px;
+    left: -35px;
+    width:450px;
+    height:500px;
+  
+  }
+  
+  .wenzi{
+    top: 900px;
+      left: 30px;
+      color: rgb(237, 235, 235);
+      width: 600px;
+      height: auto;
+      margin: auto;
+      z-index: 100;
+      position: absolute;
+      font-size: 25px;
+      align-self: auto;
+      box-shadow: 0px 0px 15px 15px #d4d4d4;
+      font-style: Regular;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+  }
+   }

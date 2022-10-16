@@ -1,0 +1,926 @@
+*{
+    margin:0;
+    padding:0;
+}
+ body{
+    height: 100vh;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    /* background: radial-gradient(black,rgb(111, 110, 110)); */
+    background-color: black;
+    color:white;
+  
+ }
+
+ .homepage{
+background-color: black;
+color:white;
+
+border:none;
+font-size:20px;
+top: 72px;
+left: 930px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+
+ .fineart{
+background-color: black;
+color:white;
+
+border:none;
+font-size:20px;
+top: 72px;
+left: 1060px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+
+button:hover{
+/* text-shadow: 0 0 3px #FF0000; */
+/* background-color: #f8f8f8; */
+/* text-shadow: 2px 2px#FF3EA5; */
+text-shadow: 4px 4px#f0e9ed94;
+}
+
+.intro1{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+    top: 72px;
+    left:780px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    /* font-family: "Permanent Marker", cursive; */
+	font-family: Inter;
+    /* opacity: 0.6; */
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+
+.handmade{
+background-color: black;
+color:white;
+border:none;
+font-size:20px;
+top: 72px;
+left:1160px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+button:hover{
+
+text-shadow: 4px 4px#f0e9ed94;
+}
+
+
+.contactm{
+background-color: black;
+color:white;
+border:none;
+font-size:20px;
+top: 72px;
+left: 1290px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+.contactm button:hover{
+
+text-shadow: 4px 4px#f0e9ed94;
+}
+
+ .text{
+    font-size:40px;
+    color:white;
+    position: absolute;
+    bottom: 16%;
+    left:10%;
+    right:10%;
+    text-shadow: 2px 2px rgb(133, 131, 131);
+   
+
+ }
+
+ .text .mouse{
+    color:rgb(255, 255, 255);
+    animation: flash 0.3s infinite;
+ }
+
+ .education{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+ }
+
+ .middleschool{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:20%;
+    top:110%;
+    margin:30px;
+    text-shadow: 2px 2px gray;
+ }
+
+ .highschool{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:48%;
+    top:110%;
+    margin:30px;
+    text-shadow: 2px 2px gray;
+ }
+
+ .college{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:73%;
+    top:110%;
+    margin:30px;
+    text-shadow: 2px 2px gray;
+ }
+ @keyframes flash{
+    from{
+     opacity: 0;
+        }
+        to{
+opacity:1;
+      }
+ }
+
+
+ .video{
+    position: absolute;
+    top:11%;
+    bottom: 40%;
+ }
+
+ .et{
+    color:white;
+   font-size: 25px;
+   position: absolute;
+   left:10%;
+   top:100%;
+   text-shadow: 2px 2px gray;
+ }
+
+ .gz{
+    margin: 18px;
+  
+ }
+
+ .ny{
+margin:18px;
+color:white;
+ }
+
+ .ny1{
+margin:18px;
+color:white;
+ }
+ /* .college1{
+    position: absolute;
+    left:30%;
+   text-align: center;
+ } */
+.sk{
+position: absolute;
+left:10%;
+top:150%;
+color:white;
+text-shadow: 2px 2px gray;
+}
+
+.skill{
+display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.skill1{
+position: absolute;
+    left:20%;
+    top:165%;
+}
+
+.skill2{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:34%;
+    top:165%;
+ }
+
+ .skill3{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:49%;
+    top:165%;
+ }
+
+ .skill4{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:64%;
+    top:165%;
+ }
+ .skill5{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:78%;
+    top:165%;
+ }
+
+ .yt{
+position: absolute;
+left:10%;
+top:190%;
+color:white;
+text-shadow: 2px 2px gray;
+}
+
+.yuyan{
+display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-shadow: 2px 2px gray;
+}
+
+.contonese{
+position: absolute;
+    left:20%;
+    top:205%;
+    font-size: 25px;
+}
+
+.contonese:hover span {
+display: none
+}
+
+.contonese:hover:before {
+content: "粤语"
+}
+
+.mandarin{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:50%;
+    top:205%;
+    font-size: 25px;
+    font-size: 25px;
+ }
+ .mandarin:hover span {
+display: none
+}
+
+.mandarin:hover:before {
+content: "普通话"
+
+}
+
+
+ .english{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:77%;
+    top:205%;
+    font-size: 25px;
+ }
+
+ .con{
+position: absolute;
+left:10%;
+top:225%;
+
+color:white;
+text-shadow: 2px 2px gray;
+
+}
+
+.contact{
+display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+ 
+
+}
+
+.email{
+position: absolute;
+    left:20%;
+    top:240%;
+   
+}
+.email:hover span{
+    display: none;
+ }
+
+.email:hover:before{
+    content: "jt4269@nyu.edu";
+    font-size: 25px;
+}
+
+.phone{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:50%;
+    top:240%;
+ }
+ .phone:hover span{
+    display: none;
+ }
+
+.phone:hover:before{
+    content: "123456789";
+    font-size: 25px;
+}
+
+ .ins{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:78%;
+    top:240%;
+ }
+
+ .ins:hover span{
+    display: none;
+ }
+
+.ins:hover:before{
+    content: "duoduo11111";
+    font-size: 25px;
+}
+
+.cvtext{
+    position: absolute;
+    left:10%;
+    top:280%;
+    
+    color:white;
+    text-shadow: 2px 2px gray;
+    
+    }
+
+    .cv{
+        position: absolute;
+    left:20%;
+    top:290%; 
+    }
+
+    .cv p{
+        font-size: 20px;
+        text-shadow: 3px 3px gray;
+    }
+
+
+
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+{ 
+body{
+    height: 844;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* background: radial-gradient(black,rgb(111, 110, 110)); */
+    background-color: black;
+    color:white;
+  
+ }
+
+ .homepage{
+background-color: black;
+color:white;
+
+border:none;
+font-size:17px;
+top: 40px;
+left: 160px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+
+ .fineart{
+background-color: black;
+color:white;
+
+border:none;
+font-size:17px;
+top: 40px;
+left: 280px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+
+button:hover{
+/* text-shadow: 0 0 3px #FF0000; */
+/* background-color: #f8f8f8; */
+/* text-shadow: 2px 2px#FF3EA5; */
+text-shadow: 4px 4px#f0e9ed94;
+}
+
+.handmade{
+background-color: black;
+color:white;
+border:none;
+font-size:17px;
+top: 40px;
+left:370px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+button:hover{
+
+text-shadow: 4px 4px#f0e9ed94;
+}
+
+
+.contactm{
+background-color: black;
+color:white;
+border:none;
+font-size:17px;
+top: 40px;
+left:450px;
+height: auto;
+position: absolute;
+align-self: auto;
+font-style: Regular;
+text-align: left;
+font-family: Inter;
+font-weight: 400;
+line-height: normal;
+font-stretch: normal;
+margin-right: 0;
+margin-bottom: 0;
+text-decoration: none;
+}
+.contactm button:hover{
+
+text-shadow: 4px 4px#f0e9ed94;
+}
+
+.intro1{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+    top: 40px;
+    left:30px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    /* font-family: "Permanent Marker", cursive; */
+	font-family: Inter;
+    /* opacity: 0.6; */
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+
+/* .video{
+width:100px;
+height:100px;
+position: absolute;
+left:10%;
+} */
+
+ .text{
+    font-size:25px;
+    color:white;
+    position: absolute;
+    bottom: 10%;
+    left:15%;
+    right:10%;
+    text-shadow: 2px 2px rgb(133, 131, 131);
+   
+
+ }
+
+ .text .mouse{
+    color:rgb(255, 255, 255);
+    animation: flash 0.3s infinite;
+ }
+
+ .education{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+ }
+
+ .middleschool{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:5%;
+    top:110%;
+    margin:30px;
+    text-shadow: 2px 2px gray;
+    font-size: 5px;
+ }
+
+ .highschool{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:40%;
+    top:110%;
+    margin:30px;
+    text-shadow: 2px 2px gray;
+    font-size: 5px;
+ }
+
+ .college{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:74%;
+    top:110%;
+    margin:30px;
+    text-shadow: 2px 2px gray;
+    font-size: 5px;
+    width:190px;
+   
+ }
+ @keyframes flash{
+    from{
+     opacity: 0;
+        }
+        to{
+opacity:1;
+      }
+ }
+
+
+ .video{
+    position: absolute;
+   
+    top:17%;
+    bottom: 50%;
+   
+    
+ }
+
+ .et{
+    color:white;
+   font-size: 20px;
+   position: absolute;
+   left:10%;
+   top:100%;
+   text-shadow: 2px 2px gray;
+ }
+
+ .gz{
+    margin: 18px;
+  
+ }
+
+ .ny{
+margin:18px;
+color:white;
+ }
+
+ .ny1{
+margin:18px;
+color:white;
+ }
+ /* .college1{
+    position: absolute;
+    left:30%;
+   text-align: center;
+ } */
+.sk{
+position: absolute;
+left:10%;
+top:150%;
+color:white;
+text-shadow: 2px 2px gray;
+font-size: 15px;
+}
+
+.skill{
+display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.skill1{
+position: absolute;
+    left:10%;
+    top:165%;
+}
+
+.skill2{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:34%;
+    top:165%;
+ }
+
+ .skill3{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:56%;
+    top:165%;
+ }
+
+ .skill4{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:78%;
+    top:165%;
+ }
+ .skill5{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:10%;
+    top:178%;
+ }
+
+ .yt{
+position: absolute;
+left:10%;
+top:195%;
+color:white;
+text-shadow: 2px 2px gray;
+font-size: 15px;
+}
+
+.yuyan{
+display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-shadow: 2px 2px gray;
+ 
+}
+
+.contonese{
+position: absolute;
+    left:10%;
+    top:208%;
+    font-size:20px;
+}
+
+.contonese:hover span {
+display: none
+}
+
+.contonese:hover:before {
+content: "粤语"
+}
+
+.mandarin{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:48%;
+    top:208%;
+    font-size: 20px;
+    
+ }
+ .mandarin:hover span {
+display: none
+}
+
+.mandarin:hover:before {
+content: "普通话"
+
+}
+
+
+ .english{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:80%;
+    top:208%;
+    font-size: 20px;
+ }
+
+ .con{
+position: absolute;
+left:10%;
+top:225%;
+font-size: 15px;;
+color:white;
+text-shadow: 2px 2px gray;
+
+}
+
+.contact{
+display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+ 
+
+}
+
+.email{
+position: absolute;
+    left:10%;
+    top:235%;
+   
+}
+.email:hover span{
+    display: none;
+ }
+
+.email:hover:before{
+    content: "jt4269@nyu.edu";
+    font-size: 15px;
+}
+
+.phone{
+    /* width: 150px;
+    height: 150px; */
+    position: absolute;
+    left:47%;
+    top:235%;
+ }
+ .phone:hover span{
+    display: none;
+ }
+
+.phone:hover:before{
+    content: "123456789";
+    font-size: 15px;
+}
+
+ .ins{
+    /* width: 150px;
+    height: 150px;  */
+    position: absolute;
+    left:80%;
+    top:235%;
+ }
+
+ .ins:hover span{
+    display: none;
+ }
+
+.ins:hover:before{
+    content: "duoduo11111";
+    font-size: 15px;
+}
+
+
+}
+
+
+
+.cvtext{
+    position: absolute;
+    left:10%;
+    top:255%;
+    
+    color:white;
+    text-shadow: 2px 2px gray;
+    
+    }
+
+    .cv{
+        position: absolute;
+    left:20%;
+    top:265%; 
+    }
+
+    .cv p{
+        font-size: 20px;
+        text-shadow: 3px 3px gray;
+    }
+
+
+
+
+/* .in{
+position: absolute;
+left:10%;
+top:258%;
+font-size: 18px;;
+color:white;
+text-shadow: 2px 2px gray;
+
+}
+
+.intro{
+position: absolute;
+left:20%;
+top:265%;
+right:10%;
+bottom: 5%;
+font-size: 15px;;
+color:white;
+} */
