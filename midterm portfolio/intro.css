@@ -188,14 +188,15 @@
     
    }
   
-   .homepage{
+   
+  .homepage{
   background-color: black;
   color:white;
   
   border:none;
   font-size:17px;
   top: 40px;
-  left: 60px;
+  left: 30px;
   height: auto;
   position: absolute;
   align-self: auto;
@@ -217,7 +218,7 @@
   border:none;
   font-size:17px;
   top: 40px;
-  left: 200px;
+  left: 130px;
   height: auto;
   position: absolute;
   align-self: auto;
@@ -245,7 +246,7 @@
   border:none;
   font-size:17px;
   top: 40px;
-  left:310px;
+  left:205px;
   height: auto;
   position: absolute;
   align-self: auto;
@@ -263,6 +264,27 @@
   
   text-shadow: 4px 4px#f0e9ed94;
   }
+
+  .about{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:17px;
+    top: 40px;
+    left: 310px;
+    height: auto;
+    position: absolute;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
   
   
   .contactm{
@@ -271,7 +293,7 @@
   border:none;
   font-size:17px;
   top: 40px;
-  left:400px;
+  left:370px;
   height: auto;
   position: absolute;
   align-self: auto;
@@ -312,6 +334,9 @@
       margin-bottom: 0;
       text-decoration: none;
     }
+  
+  
+  
   
   .in{
     position: absolute;
